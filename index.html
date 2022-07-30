@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Application Website to Founders &amp; Coders</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Almarai&family=Archivo+Black&family=Cormorant+SC:wght@600&family=Libre+Bodoni&family=Playfair+Display:wght@500&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+<body>
+	<div id="page">
+		<!-- Header Section -->
+		<header id="pageheader">
+			<a href="#homepagemainsection" class="skiplink">Skip to main content</a> <!-- for accessibility purposes -->
+			<h1>DOMINIC SIMPSON</h1>
+			<!-- <p id="date"></p> -->
+		</header>
+		<!-- End of Header Section -->
+		<!-- Main Homepage Section -->
+			<section id="mainsection" role="main">
+				<div>
+					<h2>Application for Founders & Coders</h2>
+				</div>
+				<div class="slideshow-container">
+
+					<div class="mySlides fade">
+						<div class="numbertext">1 / 6</div>
+						<img src="images/fac1_tributepage.jpg" alt="Photo of tribute page as project number one for Founders & Coders application">
+						<div class="caption">Project One: Tribute Page to Buckminster Fuller</div>
+					</div>
+
+					<div class="mySlides fade">
+						<div class="numbertext">2 / 6</div>
+						<img src="images/fac2_projectgallery.jpg" alt="Photo of Project Gallery as project number two for Founders & Coders application">
+						<div class="caption">Project Two: Project Gallery</div>
+					</div>
+
+					<div class="mySlides fade">
+						<div class="numbertext">3 / 6</div>
+						<img src="images/fac3_commentbox.jpg" alt="Photo of comment box as project number three for Founders & Coders application">
+						<div class="caption">Project Three: Comment Box</div>
+					</div>
+
+					<div class="mySlides fade">
+						<div class="numbertext">4 / 6</div>
+						<img src="images/fac4_fruitshop.jpg" alt="Photo of fruit shop as project number four for Founders & Coders application">
+						<div class="caption">Project Four: Fruit Shop</div>
+					</div>
+
+					<div class="mySlides fade">
+						<div class="numbertext">5 / 6</div>
+						<img src="images/fac5_website.jpg" alt="Photo of application website as project number five for Founders & Coders application">
+						<div class="caption">Project Five: Website</div>
+					</div>
+
+					<div class="mySlides fade">
+						<div class="numbertext">6 / 6</div>
+						<img src="images/fac6_feature.jpg" alt="Photo of Theseus & The Minotaur feature as project number six for Founders & Coders application">
+						<div class="caption">Project Six: Feature - Theseus &amp; The Minotaur</div>
+					</div>
+
+					<a class="prev" id="prevSlider">&#x276E;</a>
+					<a class="next" id="nextSlider">&#x276F;</a>
+
+				</div>
+
+				<div class="dots">
+					<span class="dot" id="dotOne"></span>
+					<span class="dot" id="dotTwo"></span>
+					<span class="dot" id="dotThree"></span>
+					<span class="dot" id="dotFour"></span>
+					<span class="dot" id="dotFive"></span>
+					<span class="dot" id="dotSix"></span>
+				</div>
+						
+				<div class="cards">
+
+					<div class="imagewrapper">
+						<a href="https://github.com/DominicSimpson/facprojectone" target='_blank'><img src="images/fac1_tributepage_card.jpg" alt="Photo of tribute page card as project number one for Founders & Coders application"></a>
+						<div class="cardtext">
+							<p>For the first project, I constructed a 
+								tribute page to Buckminster "Bucky" Fuller, the legendary American architect, 
+								systems theorist, futurist, writer, designer, inventor, and philosopher. 
+								Fuller is something of a hero of mine, having overcome the odds to be a true visionary 
+								whose ideas are still with us today.</p>
+							<p>I used Google Fonts to make the headings looks professional and employed Flex Box.  
+								I also decided to keep the main section with a white background, because some of the 
+								images &#x2013; particularly the Dymaxion car replica and the Dymaxion map projection 
+								of the World &#x2013; had white images, and thus would've not have had the same effect 
+								if the background colour was not straight white. </p>	 
+							<p>Initially, the time and date were at the top, but this did not look quite right, 
+								so it put it in the footer section.</p> 
+							<p>The links are in blue for accessibility purposes: blue is generally held up as the 
+								best colour to have links in, for those who have sight access requirements.</p> 
+						</div>
+					</div>
+
+					<div class="imagewrapper">
+						<img src="images/fac2_projectgallery_card.jpg" alt="Photo of project gallery card as project number two for Founders & Coders application">
+						<div class="cardtext">
+							<p>This project gallery is made up of screenshots of each of the six projects that make up the Founders & Coders application. 
+								I have used media queries to try and make the cards scale correctly.</p>
+						</div>
+					</div>
+
+					<div class="imagewrapper">
+						<img src="images/fac3_commentbox_card.jpg" alt="Photo of comment box card as project number three for Founders & Coders application">
+						<div class="cardtext">
+							<p>For the third project, I constructed a 
+								Comment Box, which employed the same logic as when Tweeting: only a maximum of 140 characters 
+								allowed.</p>
+							<p>This meant setting up a system on JavaScript where a constant variable with the number 140 was invoked 
+								as comparison when the user started typing in characters. This logic was complicated by the fact that 
+								the counter was counting down from 140 to 0 rather than up, as well as having to account for what 
+								would happen to the counter if the user backspaced.</p>	 
+							<p>I constructed an if else statement to account for if the user had reached the 
+								limit of 140 characters, with not only the text highlighted in red, but also the walls 
+								via the outline property in CSS, which I had not encountered before.</p> 
+							<p>Finally, I also construct a print function, which not only printed out what the user 
+								had typed in the text area before hitting Submit, but also forced them to fill in 
+								the Name field, which was printed out too.</p> 
+						</div>
+					</div>
+
+					<div class="imagewrapper">
+						<img src="images/fac4_fruitshop_card.jpg" alt="Photo of fruit shop card as project number four for Founders & Coders application">
+						<div class="cardtext">
+							<p>For the fourth project, I constructed a Fruit Shop, with each fruit added to a Cart 
+								that displayed on a separate page. </p>
+							<p>Each fruit item was linked to a specific object in a Products array in the JavaScript, 
+								with an inCart element as one the elements in the object that incremented every time.</p>	 
+							<p>A function called displayCart printed out the products on the Cart page, 
+								generating the items and price, and calculating a basket total.</p> 
+						</div>
+					</div>
+
+					<div class="imagewrapper">
+						<img src="images/fac5_website_card.jpg" alt="Photo of website card as project number five for Founders & Coders application">
+						<div class="cardtext">
+							<p>For this website, which contains a portfolio of my work, I wanted bright, 
+								welcoming colours, and settled accordingly on yellow as a background colour, 
+								rather than the more forbidding black of my 
+								<a href="http://www.dominicsimpson.co.uk" target='_blank'>existing website</a> that 
+								I've had for the last few years.</p>
+							<p>I've also seen other websites use Roboto Mono font successfully, 
+								so I employed this as a paragraph font.</p>	 
+						</div>
+					</div>
+
+					<div class="imagewrapper">
+						<img src="images/fac6_feature_card.jpg" alt="Photo of website card as project number six for Founders & Coders application">
+						<div class="cardtext">
+							<p>For my in-depth, based around a more in-depth, complicated piece of work, I used the Greek 
+								legend of <a href="https://mythsandlegend.com/theseus-and-the-minotaur/" target='_blank'>Theseus 
+								and The Minotaur</a>. 
+								I had been thinking for a while about how to represent 
+								the Greek legend in a simple game, and how it would work.</p>
+							<p>Using an <a href="https://medium.com/codex/build-a-maze-game-with-vanilla-javascript-part-1-of-2-ddfd35e84e93">online template</a>, 
+								I constructed two identical maze levels to represent 
+								the Labyrinth after experimenting first with wireframes on Google Sheets. 
+								The two levels were there in order to have one Theseus sprite for each. 
+								Each Theseus sprite traverses the Labyrinth, via the user's use of keyboard or 
+								onscreen buttons, in order to reach the Minotaur at the very centre of the Labyrinth, 
+								who Theseus slays. My idea, which I managed to realise after extensive work 
+								redesigning the original template, was that the two Theseuses would then be 
+								compared to see who reached the Minotaur the quickest. 
+								An on-screen statement would state the winner.</p>
+							<p>The project was complex to realise and took much redesign of coding. I constructed a Game prototype object, 
+								something that I wasn't aware of before, which contained all subsequent functions. 
+								These included a Start button and Timer, so that each Theseus could be timed. 
+								An additional consideration had to be made on each Theseus having an equidistant route to the Minotaur, 
+								which influenced the mirrored pattern of the Labyrinth. The process of transforming from 
+								the first level to the second was complex, particularly when trying to restart the timer.</p>		 
+						</div>
+					</div>
+				</div>
+				
+			</section>
+		<!-- End of Main Section -->
+			<footer id="footer">
+				<h2>&copy; Site design by Dominic Simpson 2022</h2>
+				<p class="date"></p>
+			</footer>
+	</div>
+	<script src="scripts/script.js"></script>
+</body>
+
+</html>

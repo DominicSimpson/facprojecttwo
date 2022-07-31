@@ -442,10 +442,13 @@ ul {
 #showThirdDescription,
 #showFourthDescription,
 #showFifthDescription,
-#showSixthDescription
-#showSeventhDescription,
-#showEightDescription,
-#showNinthDescription
-#showTenthDescription {
+#showSixthDescription {
 	margin-left: 			5px;
+}
+
+#showSeventhDescription,
+#showEighthDescription,
+#showNinthDescription,
+#showTenthDescription {
+	margin-left: 6px;
 }

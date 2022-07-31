@@ -245,8 +245,8 @@ ul {
 {
 .imagewrapper
 {
-	margin: 20px;
-	justify-content: center;
+	margin: 				20px;
+	justify-content: 		center;
 }
 }
 
@@ -254,8 +254,8 @@ ul {
 {
 .imagewrapper
 {
-	margin: 20px;
-	justify-content: center;
+	margin: 				20px;
+	justify-content: 		center;
 }
 }
 
@@ -264,7 +264,7 @@ ul {
 .imagewrapper
 {
 	margin: 20px;
-	justify-content: center;
+	justify-content: 		center;
 }
 }
 
@@ -272,8 +272,8 @@ ul {
 {
 .imagewrapper
 {
-	margin: 20px;
-	justify-content: center;
+	margin: 				20px;
+	justify-content: 		center;
 }
 }
 
@@ -281,8 +281,8 @@ ul {
 {
 .imagewrapper
 {
-	margin: 20px;
-	justify-content: center;
+	margin: 				20px;
+	justify-content: 		center;
 }
 }
 
@@ -290,8 +290,8 @@ ul {
 {
 .imagewrapper
 {
-	margin: 20px;
-	justify-content: center;
+	margin: 				20px;
+	justify-content: 		center;
 }
 }
 
@@ -310,7 +310,8 @@ ul {
 	width: 					100%;
 	float: 					centre;
 	padding:				15px;
-	margin-bottom: 15px;
+	margin-bottom: 			15px;
+	display: 				none;
 }
 
 .caption {
@@ -322,17 +323,7 @@ ul {
 	margin:					0.5em;
 	color:					#000;
 	font-family: 			'Archivo Black', sans-serif;
-	}
-
-
-.bold {
-	font-weight: 			bold;
 }
-
-.italics {
-	font-style: 			italic;
-}
-
 .skiplink {
 	position:				absolute;
 	left: 					-10000px;
@@ -369,4 +360,92 @@ ul {
 	width:					95%;
 	padding:				1em;
 	margin:					1em 0.5em 1em 0.1em;
+}
+
+.container {
+	position: relative;
+	width: 					50%;
+}
+
+/* Css for card overlay **/
+.cardcontainer {
+	position: 				relative;
+
+}
+.overlay {
+	position: 				absolute;
+	top: 					0;
+	bottom: 				0;
+	left: 					0;
+	right: 					0;
+	height: 				100%;
+	width: 					100%;
+	opacity: 				0;
+	transition: 			.5s ease;
+	background-color:		#008CBA;
+
+}
+.cardcontainer:hover .overlay {
+	opacity: 				1;
+}
+
+
+@media screen and (max-width: 820px)
+{
+.overlay
+{
+	width: 410px;
+}
+}
+
+
+@media screen and (max-width: 820px)
+{
+.overlay
+{
+	width: 165px;
+}
+}
+
+@media screen and (max-width: 600px)
+{
+.overlay
+{
+	width: 410px;
+}
+}
+
+.text {
+	font-family: 			Arial, Helvetica, sans-serif;
+	color:					white;
+	font-size: 				20px;
+	position: 				absolute;
+	top: 					50%;
+	left: 					50%;
+	-webkit-transform: 		translate(-50%, -50%);
+	-ms-transform: 			translate(-50%, -50%);
+	transform: 				translate(-50%, -50%);
+	text-align: 			center;
+}
+
+@media screen and (max-width: 820px)
+{
+.text
+{
+	font-size: 10px;
+}
+}
+
+
+#showDescription,
+#showSecondDescription,
+#showThirdDescription,
+#showFourthDescription,
+#showFifthDescription,
+#showSixthDescription
+#showSeventhDescription,
+#showEightDescription,
+#showNinthDescription
+#showTenthDescription {
+	margin-left: 			5px;
 }

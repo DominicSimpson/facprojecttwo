@@ -15,4 +15,6 @@
 3. A previous prompt from Founders & Coders as part of an application for their coding Bootcamp, now discontinued, involving having a form that prompted the user to enter a sequence of numbers divided by commas. If the user clicked on the Filter button and then clicked Submit, the form would then state which of those buttons were divisible by two. By contrast, if the user clicked on the Reduce function and then clicked Submit, the form would then state the total of the numbers inputted.
 4. A page on my website with photography by me.
 
+###### In addition, I used media queries and Flex box settings so that the cards stack up neatly when the user reduces the size of the screen.
+
 ###### * The process of the user clicking the 'Show Description' button to reveal more information about each project is somewhat cumbersome: the user has to click twice to reveal the text, rather than just one time. This may be due to the coding; I am hoping to find a more seamless method. 
